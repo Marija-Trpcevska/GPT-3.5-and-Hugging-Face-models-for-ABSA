@@ -1,0 +1,161 @@
+C:\Users\Marija\Desktop\ABSADatasets-2.0\venv\Scripts\python.exe C:\Users\Marija\Desktop\ABSADatasets-2.0\test_apc.py 
+No CUDA GPU found in your device
+Version 0.9.6 of metric_visualizer is outdated. Version 0.9.7 was released 1 day ago.
+No CUDA GPU found in your device
+Version 0.9.6 of metric_visualizer is outdated. Version 0.9.7 was released 1 day ago.
+[2023-04-14 16:54:01] (2.2.1) PyABSA(2.2.1): 
+[New Feature] Aspect Sentiment Triplet Extraction from v2.1.0 test version (https://github.com/yangheng95/PyABSA/tree/v2/examples-v2/aspect_sentiment_triplet_extration)
+[New Feature] Aspect CategoryOpinion Sentiment Quadruple Extraction from v2.2.0 test version (https://github.com/yangheng95/PyABSA/tree/v2/examples-v2/aspect_opinion_sentiment_category_extraction)
+
+If you find any problems, please report them on GitHub. Thanks!
+The v2.x versions are not compatible with Google Colab. Please downgrade to 1.16.27.
+
+[2023-04-14 16:54:01] (2.2.1) Load sentiment classifier from .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42
+[2023-04-14 16:54:01] (2.2.1) config: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.config
+[2023-04-14 16:54:01] (2.2.1) state_dict: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.state_dict
+[2023-04-14 16:54:01] (2.2.1) model: None
+[2023-04-14 16:54:01] (2.2.1) tokenizer: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.tokenizer
+[2023-04-14 16:54:01] (2.2.1) Set Model Device: cpu
+[2023-04-14 16:54:01] (2.2.1) Device Name: Unknown
+C:\Users\Marija\Desktop\ABSADatasets-2.0\venv\lib\site-packages\transformers\convert_slow_tokenizer.py:446: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Some weights of the model checkpoint at yangheng/deberta-v3-base-absa-v1.1 were not used when initializing DebertaV2Model: ['pooler.dense.bias', 'classifier.bias', 'classifier.weight', 'pooler.dense.weight']
+- This IS expected if you are initializing DebertaV2Model from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DebertaV2Model from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-04-14 16:54:05] (2.2.1) Caching dataset... please remove cached dataset if any problem happens.
+[2023-04-14 16:54:07] (2.2.1) PyABSA(2.2.1): 
+[New Feature] Aspect Sentiment Triplet Extraction from v2.1.0 test version (https://github.com/yangheng95/PyABSA/tree/v2/examples-v2/aspect_sentiment_triplet_extration)
+[New Feature] Aspect CategoryOpinion Sentiment Quadruple Extraction from v2.2.0 test version (https://github.com/yangheng95/PyABSA/tree/v2/examples-v2/aspect_opinion_sentiment_category_extraction)
+
+If you find any problems, please report them on GitHub. Thanks!
+The v2.x versions are not compatible with Google Colab. Please downgrade to 1.16.27.
+
+[2023-04-14 16:54:07] (2.2.1) Load sentiment classifier from .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42
+[2023-04-14 16:54:07] (2.2.1) config: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.config
+[2023-04-14 16:54:07] (2.2.1) state_dict: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.state_dict
+[2023-04-14 16:54:07] (2.2.1) model: None
+[2023-04-14 16:54:07] (2.2.1) tokenizer: .\checkpoints\fast_lsa_t_v2_custom_dataset_acc_91.95_f1_67.42\fast_lsa_t_v2.tokenizer
+C:\Program Files\Python310\lib\multiprocessing\pool.py:265: ResourceWarning: unclosed running multiprocessing pool <multiprocessing.pool.Pool state=RUN pool_size=1>
+  _warn(f"unclosed running multiprocessing pool {self!r}",
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[2023-04-14 16:54:07] (2.2.1) Set Model Device: cpu
+[2023-04-14 16:54:07] (2.2.1) Device Name: Unknown
+C:\Users\Marija\Desktop\ABSADatasets-2.0\venv\lib\site-packages\transformers\convert_slow_tokenizer.py:446: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Some weights of the model checkpoint at yangheng/deberta-v3-base-absa-v1.1 were not used when initializing DebertaV2Model: ['pooler.dense.weight', 'pooler.dense.bias', 'classifier.bias', 'classifier.weight']
+- This IS expected if you are initializing DebertaV2Model from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DebertaV2Model from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2023-04-14 16:54:26] (2.2.1) Example 0: Beat authentic <taco truck:Positive(confidence:0.779, ref:Positive)> on the Westside. You can't go wrong with their al pastor tacos. Top with their homemade cucumber/onion/jalapeño mixture for a fresh kick!
+[2023-04-14 16:54:26] (2.2.1) Example 1: Don't forget to order <creme brulee:Positive(confidence:0.983, ref:Positive)> as a dessert
+[2023-04-14 16:54:26] (2.2.1) Example 2: Love the <chicken and dumplings:Positive(confidence:0.999, ref:Positive)> !
+[2023-04-14 16:54:26] (2.2.1) Example 3: Excellent <service:Positive(confidence:0.999, ref:Positive)> here! The <Tokyo Fog:Positive(confidence:0.997, ref:Positive)> with tapioca and soy was great!
+[2023-04-14 16:54:26] (2.2.1) Example 4: <Lobster bisque:Positive(confidence:0.999, ref:Positive)> was excellent
+[2023-04-14 16:54:26] (2.2.1) Example 5: The <chai milkshakes:Positive(confidence:0.999, ref:Positive)> are phenomenal!
+[2023-04-14 16:54:26] (2.2.1) Example 6: Try the <pljeskavica sandwich:Positive(confidence:0.999, ref:Positive)> . It's a monstrous cross between a gyro and a hamburger. Spectacular.
+[2023-04-14 16:54:26] (2.2.1) Example 7: Don't waste your time (or $$$) on the <salads:Neutral(confidence:0.808, ref:Negative)> or sandwich. Stick with the lobster roll and lobster mac & cheese and you won't be disappointed. Watch out for overuse of tarragon though....shudder.
+[2023-04-14 16:54:26] (2.2.1) Example 8: You gotta try the <cheese cake:Positive(confidence:0.999, ref:Positive)> !
+[2023-04-14 16:54:26] (2.2.1) Example 9: <Bang bang shrimp:Positive(confidence:0.999, ref:Positive)> is the best shrimp ever!
+[2023-04-14 16:54:26] (2.2.1) Example 10: Best <salmon sashimi:Positive(confidence:0.999, ref:Positive)> in town.
+[2023-04-14 16:54:26] (2.2.1) Example 11: The <food:Positive(confidence:0.982, ref:Neutral)> is ok but the service here sucked. I ordered a beer and our <food:Positive(confidence:0.982, ref:Neutral)> came out but my beer never did. After taking my order we never saw the waiter.
+[2023-04-14 16:54:26] (2.2.1) Example 12: Best Dunkin' Donuts around! We will always drive further to this one than the one by our home from now on, just because of the great <service:Positive(confidence:0.999, ref:Positive)> from a guy named ADAM that was awesome to us!!!!
+[2023-04-14 16:54:26] (2.2.1) Example 13: Great <<food:Positive(confidence:0.999, ref:Positive)>:Positive(confidence:0.999, ref:Positive)> great <<service:Positive(confidence:0.999, ref:Positive)>:Positive(confidence:0.999, ref:Positive)>
+[2023-04-14 16:54:26] (2.2.1) Example 14: This is a new <restaurant:Positive(confidence:0.961, ref:Neutral)> off of the square in Ellijay, GA. The <restaurant:Positive(confidence:0.961, ref:Neutral)> is actually located inside/behind TJ's antiques. I stopped by here with my wife and kids and we loved the chicken salad!
+[2023-04-14 16:54:26] (2.2.1) Example 15: The <mushrooms:Positive(confidence:0.999, ref:Positive)> are delicious!!!
+[2023-04-14 16:54:26] (2.2.1) Example 16: For a healthy lunch get the <grilled chickens salad:Positive(confidence:0.758, ref:Positive)> with BBQ sauce, ranch and bread.
+[2023-04-14 16:54:26] (2.2.1) Example 17: It's a really authentic <Dim Sum Restaurant:Positive(confidence:0.998, ref:Positive)> . Good service + a nice boss that would explain the food to you whenever you have a question. It's tiny inside but it's also all about quality + not quantity.
+[2023-04-14 16:54:26] (2.2.1) Example 18: Food is wonderful, but the <service:Negative(confidence:0.96, ref:Negative)> can be much better. They seem to be preoccupied with something and tend to "miss" eye contact.
+[2023-04-14 16:54:26] (2.2.1) Example 19: <Adult milkshakes:Positive(confidence:0.615, ref:Positive)> are worth the calories. But highly variable.
+[2023-04-14 16:54:26] (2.2.1) Example 20: Don't let the name fool ya, they've got kickin <catfish:Positive(confidence:0.988, ref:Positive)> and fried pickles too, not many are aware of this tidbit.
+[2023-04-14 16:54:26] (2.2.1) Example 21: Their <Chocolate Chip:Positive(confidence:0.999, ref:Positive)> tastes awesome.
+[2023-04-14 16:54:26] (2.2.1) Example 22: The <garlic fries:Positive(confidence:0.999, ref:Positive)> are awesome!!
+[2023-04-14 16:54:26] (2.2.1) Example 23: Really good <BBQ:Positive(confidence:0.999, ref:Positive)> : brisket, ribs, pulled pork, chicken, fried chicken, sausage
+[2023-04-14 16:54:26] (2.2.1) Example 24: <Sandwiches:Negative(confidence:0.91, ref:Positive)> and pecan pies are the bomb.
+[2023-04-14 16:54:26] (2.2.1) Example 25: Try the <Ryne Sandburger:Positive(confidence:0.999, ref:Positive)> !
+[2023-04-14 16:54:26] (2.2.1) Example 26: Must try the <crispy duck:Positive(confidence:0.999, ref:Positive)> !
+[2023-04-14 16:54:26] (2.2.1) Example 27: <Sweet potato and sage dumplings:Positive(confidence:0.997, ref:Positive)> are the stuff of dreams.
+[2023-04-14 16:54:26] (2.2.1) Example 28: Great place for a meeting. Sit by the warm <fire:Positive(confidence:0.999, ref:Positive)> .
+[2023-04-14 16:54:26] (2.2.1) Example 29: What isn't good here? My favorite has to be the <four veg plate:Positive(confidence:0.999, ref:Positive)> - pintos, fried okra, carrots, and apples...with cornbread of course!
+[2023-04-14 16:54:26] (2.2.1) Example 30: The <management:Negative(confidence:0.987, ref:Negative)> is the worst i've ever had to deal with. They take 0 responsibility. Treat their nonfavorite employees like total garbage even when they do their job above the "favorites".
+[2023-04-14 16:54:26] (2.2.1) Example 31: <YUM:Positive(confidence:0.929, ref:Positive)> !!!!! this pizza is delicious!!!
+[2023-04-14 16:54:26] (2.2.1) Example 32: They use <moldy bread:Negative(confidence:0.949, ref:Negative)> becareful my sandwich had mold on it nasty.
+[2023-04-14 16:54:26] (2.2.1) Example 33: Great <food:Positive(confidence:0.999, ref:Positive)> and cheap, awesome atmosphere
+[2023-04-14 16:54:26] (2.2.1) Example 34: Everything on the <menu:Positive(confidence:0.984, ref:Positive)> is heaven on your taste buds! I crave their food!
+[2023-04-14 16:54:26] (2.2.1) Example 35: <Veggie burrito with shrimp:Positive(confidence:0.999, ref:Positive)> . Yum!
+[2023-04-14 16:54:26] (2.2.1) Example 36: Really very nice an quiet <place:Positive(confidence:0.999, ref:Positive)> with beatiful waitress. I strongly recommend to visit this tearoom ;-)
+[2023-04-14 16:54:26] (2.2.1) Example 37: Good <food:Positive(confidence:0.999, ref:Positive)> , service was extremely accommodating, they get an A+ for that!
+[2023-04-14 16:54:26] (2.2.1) Example 38: Fort Wayne's best <micro-brew:Positive(confidence:0.999, ref:Positive)> . Grab a booth along the windows & watch traffic as you sip a flight of their beers and munch on a Politician pizza, or Jambalaya Flatbread, a personal favorite of mine.
+[2023-04-14 16:54:26] (2.2.1) Example 39: This place is awesome. Has everything you could want for <Mexican:Positive(confidence:0.995, ref:Positive)> cuisine.
+[2023-04-14 16:54:26] (2.2.1) Example 40: Great place before and after work. Nice <ambiance:Positive(confidence:0.999, ref:Positive)> !
+[2023-04-14 16:54:26] (2.2.1) Example 41: <Vegetable pad Thai:Positive(confidence:0.999, ref:Positive)> is the best! Along with the Sapota drink...YUM
+[2023-04-14 16:54:26] (2.2.1) Example 42: The <crab <rice:Negative(confidence:0.912, ref:Neutral)>:Negative(confidence:0.961, ref:Negative)> is not very tasty. Just basically <rice:Negative(confidence:0.912, ref:Neutral)> n crab.however, the clams wi thai lemon sauce is great. The grape prawns are not too bad but I think they are not fresh enough.
+[2023-04-14 16:54:26] (2.2.1) Example 43: Best <salsa:Positive(confidence:0.999, ref:Positive)> everrr, on good days though lol
+[2023-04-14 16:54:26] (2.2.1) Example 44: <$8.90 lunch deal:Positive(confidence:0.944, ref:Neutral)> comes with soup and a drink
+[2023-04-14 16:54:26] (2.2.1) Example 45: Nice cup of <tea:Positive(confidence:0.999, ref:Positive)> Fab-u-lous ;-)
+[2023-04-14 16:54:26] (2.2.1) Example 46: You won't find a better <breakfast biscuit:Positive(confidence:0.999, ref:Positive)> anywhere. We detour just for the country fried steak biscuits. Time well spent!
+[2023-04-14 16:54:26] (2.2.1) Example 47: Best <cheeseburger:Positive(confidence:0.999, ref:Positive)> in town - try to get a table upstairs
+[2023-04-14 16:54:26] (2.2.1) Example 48: Try the <Malay nasi lemak stall:Positive(confidence:0.999, ref:Positive)> very addictive
+[2023-04-14 16:54:26] (2.2.1) Example 49: <Chicken wings:Positive(confidence:0.999, ref:Positive)> are awesome!!!
+[2023-04-14 16:54:26] (2.2.1) Example 50: Try the <pork ribs:Positive(confidence:0.999, ref:Positive)> :)
+[2023-04-14 16:54:26] (2.2.1) Example 51: Burger was cooked to <PERFECTION:Positive(confidence:0.998, ref:Positive)> . I order rare, and a lot of places mess it up. They did get it right. Soft and tender, but still with that just <grilled:Positive(confidence:0.977, ref:Positive)> taste. And the homemade knish is incredible!
+[2023-04-14 16:54:26] (2.2.1) Example 52: Really good <sushi:Positive(confidence:0.999, ref:Positive)> .
+[2023-04-14 16:54:26] (2.2.1) Example 53: I don't normally like big <burgers:Negative(confidence:0.812, ref:Neutral)> and it's not a cheap burger, but this is truly one of the best <burgers:Negative(confidence:0.812, ref:Neutral)> I've had. It's quite messy to eat but extremely delicious.
+[2023-04-14 16:54:26] (2.2.1) Example 54: Go with the <plate:Positive(confidence:0.622, ref:Positive)> instead of the sandwich to get delicious vinegary potatoes with your meal
+[2023-04-14 16:54:26] (2.2.1) Example 55: Their <chai latte:Positive(confidence:0.999, ref:Positive)> is heavenly.
+[2023-04-14 16:54:26] (2.2.1) Example 56: Very disappointed with the <quality of ingredients:Negative(confidence:0.978, ref:Negative)> and the <portions:Negative(confidence:0.973, ref:Negative)>, pricy food with no exceptional service. Order took too long though the place wasn't crowded, overall, it's an experience I regret
+[2023-04-14 16:54:26] (2.2.1) Example 57: Horrible <parking:Negative(confidence:0.986, ref:Negative)> during rush hour.
+[2023-04-14 16:54:26] (2.2.1) Example 58: <Porter:Positive(confidence:0.999, ref:Positive)> is a cool guy to hang with. Sit at the bar- he'll set you up right.
+[2023-04-14 16:54:26] (2.2.1) Example 59: <Chocolate chip pancakes:Positive(confidence:0.999, ref:Positive)> were extremely luxurious, i'd like to have seen some more chocolate but maybe I'm greedy.Omelette was fluffy & very tasty. Hash browns were crispy outside creamy inside 10/10
+[2023-04-14 16:54:26] (2.2.1) Example 60: Super great <tuna & cucumber panini:Positive(confidence:0.999, ref:Positive)> . I like how tune is not hot while the panini is hot
+[2023-04-14 16:54:26] (2.2.1) Example 61: Front lot does get full sometimes, but there's usually plenty of <parking:Positive(confidence:0.998, ref:Positive)> in the back.
+[2023-04-14 16:54:26] (2.2.1) Example 62: Try " <Kateifi:Positive(confidence:0.998, ref:Positive)> ", you won't regret it!
+[2023-04-14 16:54:26] (2.2.1) Example 63: <Muffins:Positive(confidence:0.999, ref:Positive)> are so amaziiiiing! especially blueberry
+[2023-04-14 16:54:26] (2.2.1) Example 64: Try <penne carbonara:Positive(confidence:0.999, ref:Positive)> here... It's simply the best
+[2023-04-14 16:54:26] (2.2.1) Example 65: Very good <store:Positive(confidence:0.999, ref:Positive)> , great selection of Russian candy, pelmeni are very high quality. Highly recommended!
+[2023-04-14 16:54:26] (2.2.1) Example 66: Hands down one of my favorite <restaurants:Positive(confidence:0.999, ref:Positive)> . Plates are to be shared. BBQ (smoked beef and slow roasted pork) is amazing and order several sides such as the yuca, fried plantains, and cornbread
+[2023-04-14 16:54:26] (2.2.1) Example 67: Went here specifically for <cheese omelette:Positive(confidence:0.998, ref:Positive)> after reading so many 4sq reviews which was light & good. It was one of the places to visit on my list & I wasn't disappointed. Usual waiting time 30-45 min
+[2023-04-14 16:54:26] (2.2.1) Example 68: Try the <dark mocha iced coffee:Positive(confidence:0.999, ref:Positive)> . Its awesome.
+[2023-04-14 16:54:26] (2.2.1) Example 69: Love <beer:Positive(confidence:0.999, ref:Positive)> here, good for chilling out with friends
+[2023-04-14 16:54:26] (2.2.1) Example 70: Excellent <black tea:Positive(confidence:0.999, ref:Positive)> *thumbs up*
+[2023-04-14 16:54:26] (2.2.1) Example 71: Order for their <pancakes:Positive(confidence:0.836, ref:Positive)> . That's it! Forget about the rest in the menu *yawn*
+[2023-04-14 16:54:26] (2.2.1) Example 72: Come here for the <chicken shwarma:Positive(confidence:0.999, ref:Positive)> .
+[2023-04-14 16:54:26] (2.2.1) Example 73: I asked <noodles:Neutral(confidence:0.919, ref:Neutral)> with shrimps and... Were a lot of <noodles:Neutral(confidence:0.919, ref:Neutral)> and just 5 little shrimps :/ Went out completely hungry.
+[2023-04-14 16:54:26] (2.2.1) Example 74: Good <food:Positive(confidence:0.999, ref:Positive)> , drinks, entertainment, & prices!!!
+[2023-04-14 16:54:26] (2.2.1) Example 75: The head chef makes good <everything:Positive(confidence:0.995, ref:Positive)> . Try the deserts too, great crem brule.
+[2023-04-14 16:54:26] (2.2.1) Example 76: The head chef makes good eveything. Try the <deserts:Positive(confidence:0.996, ref:Positive)> too, great crem brule.
+[2023-04-14 16:54:26] (2.2.1) Example 77: The <tiramisu:Positive(confidence:0.999, ref:Positive)> is fantastic. They give you the cake, coffee, creme, powder and you build it yourself. Delicious.
+[2023-04-14 16:54:26] (2.2.1) Example 78: <Crab stuffed artichoke hearts:Positive(confidence:0.996, ref:Positive)> . Delish!
+[2023-04-14 16:54:26] (2.2.1) Example 79: <Service:Negative(confidence:0.987, ref:Negative)> is very bad, stuff is rude and impolite, very high gratuity!!!??
+[2023-04-14 16:54:26] (2.2.1) Total samples:87
+[2023-04-14 16:54:26] (2.2.1) Labeled samples:87
+[2023-04-14 16:54:26] (2.2.1) Prediction Accuracy:91.95402298850574%
+[2023-04-14 16:54:26] (2.2.1) 
+---------------------------- Classification Report ----------------------------
+
+
+[2023-04-14 16:54:26] (2.2.1)
+               precision    recall  f1-score   support
+
+    Negative     0.7273    0.8889    0.8000         9
+     Neutral     0.5000    0.1667    0.2500         6
+    Positive     0.9595    0.9861    0.9726        72
+
+    accuracy                         0.9195        87
+   macro avg     0.7289    0.6806    0.6742        87
+weighted avg     0.9038    0.9195    0.9049        87
+
+[2023-04-14 16:54:26] (2.2.1) 
+---------------------------- Classification Report ----------------------------
+
+[2023-04-14 16:54:26] (2.2.1) 
+---------------------------- Confusion Matrix ----------------------------
+
+
+[2023-04-14 16:54:26] (2.2.1)
+ [[ 8  1  0]
+ [ 2  1  3]
+ [ 1  0 71]]
+[2023-04-14 16:54:26] (2.2.1) 
+---------------------------- Confusion Matrix ----------------------------
+
+
+Process finished with exit code 0

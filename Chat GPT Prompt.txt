@@ -1,0 +1,188 @@
+Please extract aspect terms and determine their polarity from the provided sentence. Use the format provided in the example below. For each extracted aspect term, in a new line rewrite the sentence, but substitute the aspect term with "$T$" in its place. In a new line, provide the extracted aspect term and in yet another new line provide the polarity. The polarity can have the values "Positive", "Negative" or "Neutral". Do this for each extracted aspect term.
+Follow these suggestions when extracting aspect terms:
+-Nominal phrases explicitly mentioning aspects should be annotated as aspect terms.
+-Verbs or verbals (words formed from a verb, but functioning as a different part of speech e.g., gerunds and participles) naming aspects should be annotated as aspect terms.
+-Subjectivity indicators (i.e., words/phrases expressing opinion, evaluation etc.) are not considered aspect terms or parts of aspect terms. 
+-If an aspect term appears in a sentence more than once, all of its occurrences in the sentence should be annotated. 
+-The identified aspect terms should be annotated even if they appear in quotation marks or brackets.
+-The identified aspect terms should be annotated as they appear, even if misspelled.
+-Determiners (e.g., “a”, “the”, “some”, “many”, “all”) should not be included in aspect terms, unless they are parts of embedded noun phrases. 
+-References to the target entity (the restaurant or laptop the review is about) as a whole should not be annotated as aspect terms.
+-Pronouns (e.g., “it”, “they”, “this”) even if they refer to an aspect should not be annotated as aspect terms.
+-An aspect term should be classified as positive or negative  if the sentence expresses a positive or negative respectively, attitude, opinion, evaluation, emotion, or feeling etc. of an opinion holder towards the aspect term. 
+-Aspect terms should be annotated as neutral when factual information (no sentiment) about the aspect term is provided or when positive or negative polarity about the named aspect might be inferred, without being explicit
+
+##
+
+Pitas are incredibly tasty but avoid the lentil soup at all costs.
+
+$T$ are incredibly tasty but avoid the lentil soup at all costs.
+Pitas
+Positive
+Pitas are incredibly tasty but avoid the $T$ at all costs.
+lentil soup
+Negative
+
+##
+
+Very very nice interior. Coffee is a little bit too light.
+
+Very very nice $T$. Coffee is a little bit too light.
+interior
+Positive
+Very very nice interior. $T$ is a little bit too light.
+Coffee
+Negative
+
+##
+
+Great food...slow service.
+
+Great $T$...slow service.
+food
+Positive
+Great food...slow $T$.
+service
+Negative
+
+##
+
+Too expensive for average menu.
+
+Too expensive for average $T$.
+menu
+Neutral
+
+##
+
+Great drinks and great Ramen ! But beware, the Ramen portions are HUGE.
+
+Great $T$ and great Ramen ! But beware, the Ramen portions are HUGE.
+drinks
+Positive
+Great drinks and great $T$ ! But beware, the Ramen portions are HUGE.
+Ramen
+Positive
+Great drinks and great Ramen ! But beware, the $T$ are HUGE.
+Ramen portions
+Neutral
+
+##
+
+Ben here 4 times in last month. Excellent sushi and old fashions. Music is way too loud for dining though! Turn it down a tad for eating please!
+
+Ben here 4 times in last month. Excellent $T$ and old fashions. Music is way too loud for dining though! Turn it down a tad for eating please!
+sushi
+Positive
+Ben here 4 times in last month. Excellent sushi and $T$. Music is way too loud for dining though! Turn it down a tad for eating please!
+old fashions
+Positive
+Ben here 4 times in last month. Excellent sushi and old fashions. $T$ is way too loud for dining though! Turn it down a tad for eating please!
+Music
+Negative
+
+##
+
+Waitress wears flip flop. Doesn't know how to properly pour water out of a pitcher. Food was good though.
+
+$T$ wears flip flop. Doesn't know how to properly pour water out of a pitcher. Food was good though.
+Waitress
+Negative
+Waitress wears flip flop. Doesn't know how to properly pour water out of a pitcher. $T$ was good though.
+Food
+Positive
+
+##
+
+The Red Velvet Waffles are to die for!
+
+The $T$ are to die for!
+Red Velvet Waffles
+Positive
+
+##
+
+Must try the vege tomyam curry mee!
+
+Must try the $T$!
+vege tomyam curry mee
+Positive
+
+##
+
+Try the Hot Chick. Delicious.
+
+Try the $T$. Delicious.
+Hot Chick
+Positive
+
+##
+
+Veggie burrito with shrimp. Yum!
+
+$T$. Yum!
+Veggie burrito with shrimp
+Positive
+
+##
+
+They have the best Pad Thai!
+
+They have the best $T$!
+Pad Thai
+Positive
+
+##
+
+Mid level food, ordinary place, nothing special.
+
+Mid level $T$, ordinary place, nothing special.
+food
+Neutral
+
+##
+
+Ask for the seared scallops with pepper jack poblano grits. We can't get enough of it. (And everything tastes better when devoured on a garden patio).
+
+Ask for the $T$. We can't get enough of it. (And everything tastes better when devoured on a garden patio).
+seared scallops with pepper jack poblano grits
+Positive
+Ask for the seared scallops with pepper jack poblano grits. We can't get enough of it. (And everything tastes better when devoured on a $T$).
+garden patio
+Positive
+
+##
+
+Service is terrible, sadly it is not the managements fault. There is just no respect shown by the general staff. It's sad.
+
+$T$ is terrible, sadly it is not the managements fault. There is just no respect shown by the general staff. It's sad.
+Service
+Negative
+Service is terrible, sadly it is not the $T$ fault. There is just no respect shown by the general staff. It's sad.
+managements
+Neutral
+Service is terrible, sadly it is not the managements fault. There is just no respect shown by the $T$. It's sad.
+general staff
+Negative
+
+##
+
+This CCD has one of the best locations in Bombay.. Ideally located.. Serene..calm!
+
+This CCD has one of the best $T$ in Bombay.. Ideally located.. Serene..calm!
+locations
+Positive
+
+##
+
+No drive-through, so have fun navigating the horrible parking lot and snarled entryway.
+
+No drive-through, so have fun navigating the horrible $T$ and snarled entryway.
+parking lot
+Negative
+No drive-through, so have fun navigating the horrible parking lot and snarled $T$.
+entryway
+Negative
+
+##
+
