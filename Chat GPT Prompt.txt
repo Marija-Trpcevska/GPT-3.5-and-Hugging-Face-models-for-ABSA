@@ -7,7 +7,7 @@ Follow these suggestions when extracting aspect terms:
 -The identified aspect terms should be annotated even if they appear in quotation marks or brackets.
 -The identified aspect terms should be annotated as they appear, even if misspelled.
 -Determiners (e.g., “a”, “the”, “some”, “many”, “all”) should not be included in aspect terms, unless they are parts of embedded noun phrases. 
--References to the target entity (the restaurant or laptop the review is about) as a whole should not be annotated as aspect terms.
+-References to the target entity (the restaurant the review is about) as a whole should not be annotated as aspect terms.
 -Pronouns (e.g., “it”, “they”, “this”) even if they refer to an aspect should not be annotated as aspect terms.
 -An aspect term should be classified as positive or negative  if the sentence expresses a positive or negative respectively, attitude, opinion, evaluation, emotion, or feeling etc. of an opinion holder towards the aspect term. 
 -Aspect terms should be annotated as neutral when factual information (no sentiment) about the aspect term is provided or when positive or negative polarity about the named aspect might be inferred, without being explicit
